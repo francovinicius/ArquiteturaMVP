@@ -17,6 +17,6 @@ class UsuarioController (
         val lista = usuarioAPI.recuperarUsuarios()
 
         //exibir os dados na interface
-        mainActivity.listarUsuarios(lista)
+        mainActivity.exibirUsuarios(lista)
     }
 }
